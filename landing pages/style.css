@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: #64AE11;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.menu-superior {
+    display: flex;
+    align-items: center;
+    background-color: #3C5C3D;
+}
+.menu-superior > nav > a {
+    padding: 8px;
+}
+.pesquisa{
+    display: flex;
+    align-items: center;
+    
+}
