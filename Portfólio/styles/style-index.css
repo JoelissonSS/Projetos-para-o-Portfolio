@@ -1,0 +1,72 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --cor1:#12233a;
+    --cor2: #145988;
+    --cor3: #2099d9;
+    --cor4: #20d6d8;
+}
+
+header{
+    background-color: #2099d9;
+    height: 20vh;
+    position: relative;
+    color: #12233a;
+}
+.titulo-do-header{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.links-do-header{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 1em;
+    
+}
+.nav-links{
+    
+    padding: .5em;
+    border-radius: 1em;
+}
+.nav-links:hover{
+    color: #20d6d8;
+    background-color: #145988;
+}
+.lista-do-nav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#Resumo{
+    position: absolute;
+    /* display: block; */
+}
+#Sobre{
+    position: absolute;
+    /* display: none; */
+}
+#Projetos{
+    position: absolute;
+    /* display: none; */
+}
+#Contato{
+    position: absolute;
+    /* display: none; */
+}
